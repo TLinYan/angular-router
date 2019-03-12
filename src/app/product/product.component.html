@@ -1,0 +1,14 @@
+<div>
+  <p>商品详情页</p>
+  <div class="geban"></div>
+  <p><span [routerLink]="['./productDesc']">商品介绍</span></p>
+
+  <!-- 三种方式路由传参 -->
+  <!-- <p><span [routerLink]="['/product/productSeller']">销售员</span></p> -->
+  <!-- <p><span [routerLink]="['/product/productSeller','666']">销售员</span></p> -->
+  <p><span [routerLink]="['./productSeller']" [queryParams]="{id:333}">销售员</span></p>
+  <p><span>id是{{productId}}</span> </p>
+  <p><span>名字是{{productName}}</span> </p>
+</div>
+<div class="geban"></div>
+<router-outlet></router-outlet>

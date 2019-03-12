@@ -1,0 +1,29 @@
+span{
+  margin: 10px;
+  border: 1px #000 solid;
+}
+.leftBox{
+  width: 70%;
+  float: left;
+}
+.rightBox{
+  width: 30%;
+  float: left;
+}
+.geban{
+  width: 100%;
+  height: 3px;
+  background-color: orange;
+}
+.routerBox{
+  width: 100%;
+}
+.routerBox .mainBox{
+  float: left;
+  width: 70%;
+  background-color: #eee;
+}
+.routerBox .chatBox{
+  float: right;
+  width: 30%;
+}
